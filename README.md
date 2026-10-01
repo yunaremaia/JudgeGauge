@@ -10,7 +10,7 @@
 JudgeGauge currently supports an OpenAI-compatible Chat Completions endpoint and reads `OPENAI_API_KEY`, `OPENAI_MODEL`, and `OPENAI_BASE_URL`. The model defaults to `gpt-5-mini` and the base URL defaults to OpenAI's API.
 
 ```bash
-pip install judgegauge
+pip install git+https://github.com/yunaremaia/JudgeGauge.git
 judgegauge gate --smoke
 ```
 
